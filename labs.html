@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laboratories</title>
+    <link rel="icon" type="image/x-icon" href="images/CVR Logo.png">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <!-- Scroll Up (GoTo Top Button) -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top">
+        <i class="fa fa-angle-double-up" aria-hidden="true"></i>
+    </button>
+    <!-- Navigation and Header Begin -->
+    <div class="sticky-top">
+        <!-- Navigation sticky-top-->
+        <navigation>
+            <nav class="navbar navbar-expand-xl navbar-dark bg-blue">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="images/logo.png" class="img-fluid" alt="CVR LOGO"
+                            style="width: 100%; height: 60px;" />
+                        <!-- CSEDEPT -->
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item marlin">
+                                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item dropdown marlin">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Academics
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="visionmission.html">Vision Mission</a></li>
+                                    <li><a class="dropdown-item" href="objectives.html">Objectives</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="academiccalendar.html">Academic Calendar</a></li>
+                                    <li><a class="dropdown-item" href="syllabus.html">Syllabus Books</a></li>
+                                    <li><a class="dropdown-item" href="timetables.html">Time Tables</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown marlin">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Infrastructure
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="labs.html">Laboratories</a></li>
+                                    <li><a class="dropdown-item" href="classes.html">Class Rooms</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="seminarhall.html">Seminar Hall</a></li>
+                                    <li><a class="dropdown-item" href="library.html">Library</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown marlin">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Faculty
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="teaching.html">Teaching</a></li>
+                                    <li><a class="dropdown-item" href="nonteaching.html">Non - Teaching</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="techstaff.html">Technical Staff</a></li>
+                                    <li><a class="dropdown-item" href="adminstaff.html">Admin</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown marlin">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Research
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="conferences.html">Conferences</a></li>
+                                    <li><a class="dropdown-item" href="workshops.html">Workshops</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="researchprojs.html">Research Projects</a></li>
+                                    <li><a class="dropdown-item" href="consultancyprojs.html">Consultancy Projects</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown marlin">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Student Corner
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="eresources.html">E-Resources</a></li>
+                                    <li><a class="dropdown-item" href="studentwork.html">Student Work</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="gallary.html">Gallary</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item marlin">
+                                <a class="nav-link" href="about.html">About</a>
+                            </li>
+                            <li class="nav-item marlin">
+                                <a class="nav-link" href="contacts.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </navigation>
+        <!-- Header -->
+        <header>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-12 headerStyle">
+                        <p>
+                            Department of Computer Science and Engineering
+                        </p>
+                        <div class="container-fluid marqueeStyle">
+                            <marquee class="marformat" scrollamount="15" onMouseOver="this.stop()"
+                                onMouseOut="this.start()">
+                                <blink>
+                                    <label style="margin-right: 20px;">Notifications:</label>
+                                    <span class="blink">Flash</span>
+                                    <a class="text-white mr-4" href="#">
+                                        Department is organizing
+                                        a 10 day Skill Development Course on Web
+                                        Technologies starting from 14.06.2023 to 24.06.2023.
+                                    </a>
+                                    <span class="blink">Flash</span>
+                                    <a class="text-white mr-4" href="#">
+                                        Department is organizing
+                                        a 10 day Skill Development Course on Web
+                                        Technologies starting from 14.06.2023 to 24.06.2023.
+                                    </a>
+                                </blink>
+                            </marquee>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </header>
+    </div>
+    <!-- Navigation and Header End -->
+    <!-- Main Content Begin -->
+    <main>
+        <section class="labsSection">
+            <div class="row mt-4">
+                <div class="col-sm-12">
+                    <h2 class="text-center">Department Laboratories</h2>
+                </div>
+            </div>
+            <hr />
+            <section>
+                <div class="labCardContainer">
+                    <div class="labItem" data-aos="zoom-in" data-aos-duration="1000">
+                        <div class="labName">
+                            <p>Apple Laboratory</p>
+                        </div>
+                        <div class="labCard">
+                            <img src="images/applelab.jpg" class="labCardImg" alt="Apple Lab">
+                            <div class="labCardBody">
+                                <div class="labCardInfo">
+                                    <p class="h3 title">CB 104</p>
+                                    <p class="info text-white">30 Apple Mac Pro system for the students and teachers to
+                                        work on their research and do iOS implementation. </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="labItem" data-aos="zoom-in" data-aos-duration="1000">
+                        <div class="labName">
+                            <p>Java Programming Laboratory</p>
+                        </div>
+                        <div class="labCard">
+                            <img src="images/laboratories/309CM.JPG" class="labCardImg" alt="Java Laboratory">
+                            <div class="labCardBody">
+                                <div class="labCardInfo">
+                                    <p class="h3 title">CM 308 & 309</p>
+                                    <p class="info text-white">70 - i5 and i7 systems with 8-16GB RAM, where
+                                        students will be
+                                        exercising the Core and Advanced Java with Data Structures implementation.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="labItem" data-aos="zoom-in" data-aos-duration="1000">
+                        <div class="labName">
+                            <p>Web Engineering Laboraroty</p>
+                        </div>
+                        <div class="labCard">
+                            <img src="images/laboratories/Projects Lab 1.JPG" class="labCardImg" alt="Projects Lab">
+                            <div class="labCardBody">
+                                <div class="labCardInfo">
+                                    <p class="h3 title">Library II Floor</p>
+                                    <p class="info text-white">68 - i5 systems with 8GB RAM, where
+                                        students will be
+                                        exercising the Web Technologies and Fullstack implementation Technologies like
+                                        Angular, React and NodeJS. Projects Lab where IV year students
+                                        are alloted the systems to do their Mini and Major Projects.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="labItem" data-aos="zoom-in" data-aos-duration="1000">
+                        <div class="labName">
+                            <p>Data Visualization Laboratory</p>
+                        </div>
+                        <div class="labCard">
+                            <img src="images/laboratories/CBC2 AB.JPG" class="labCardImg" alt="Data Visualization">
+                            <div class="labCardBody">
+                                <div class="labCardInfo">
+                                    <p class="h3 title">CB C2A and C2B Cellar</p>
+                                    <p class="info text-white">66 - Acer computers with 8GB RAM, where
+                                        students will be
+                                        exercising the Data Visualization Tools and Techniques. Python the language
+                                        mostly preferred. Android Development will also be done here using Kotlin as the
+                                        language.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="labItem" data-aos="zoom-in" data-aos-duration="1000">
+                        <div class="labName">
+                            <p>Database Management Systems Laboratory</p>
+                        </div>
+                        <div class="labCard">
+                            <img src="images/laboratories/112 CB.JPG" class="labCardImg" alt="DBMS Lab">
+                            <div class="labCardBody">
+                                <div class="labCardInfo">
+                                    <p class="h3 title">CB 111 and 112</p>
+                                    <p class="info text-white">65 - Acer computers with 8GB RAM, where
+                                        students will be
+                                        exercising the backend implementations using Oracle, MySQL and mongoDB
+                                        databases.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="labItem" data-aos="zoom-in" data-aos-duration="1000">
+                        <div class="labName">
+                            <p>IoT Laboratory</p>
+                        </div>
+                        <div class="labCard">
+                            <img src="images/laboratories/204 CB.JPG" class="labCardImg" alt="IoT Lab">
+                            <div class="labCardBody">
+                                <div class="labCardInfo">
+                                    <p class="h3 title">CB 203 and 204</p>
+                                    <p class="info text-white">
+                                        65 - Acer computers with 8GB RAM, where
+                                        students will be exercising and implementing the IoT Models. Various IoT sensors
+                                        and Raspberry Pi kits are provided for practice. Linux Programming is also
+                                        practiced in this lab.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="labItem" data-aos="zoom-in" data-aos-duration="1000">
+                        <div class="labName">
+                            <p>Analytics Lab</p>
+                        </div>
+                        <div class="labCard">
+                            <img src="images/laboratories/CBC3 B.JPG" class="labCardImg" alt="IoT Lab">
+                            <div class="labCardBody">
+                                <div class="labCardInfo">
+                                    <p class="h3 title">CB C3A and C3B Cellar</p>
+                                    <p class="info text-white">
+                                        65 - Acer computers with 8GB RAM, where
+                                        students will be exercising with Data Minig Techniques using WEKA Tool.
+                                        Languages like Python, R-programming, etc.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="labItem" data-aos="zoom-in" data-aos-duration="1000">
+                        <div class="labName">
+                            <p>Datastructures Labs</p>
+                        </div>
+                        <div class="labCard">
+                            <img src="images/laboratories/304 FB.JPG" class="labCardImg" alt="DS through C">
+                            <div class="labCardBody">
+                                <div class="labCardInfo">
+                                    <p class="h3 title">FB 204,205,304,305, CM 209 and MB 305</p>
+                                    <p class="info text-white">
+                                        Totally dedicated labs with 200 - Acer systems in total having 8 GB RAM for
+                                        students to
+                                        practice their C Programming and Datastructures using C.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="labItem" data-aos="zoom-in" data-aos-duration="1000">
+                        <div class="labName">
+                            <p>English Language Communication Skils Lab</p>
+                        </div>
+                        <div class="labCard">
+                            <img src="images/laboratories/ELCS Lab 1 113 FB.JPG" class="labCardImg" alt="ELCS">
+                            <div class="labCardBody">
+                                <div class="labCardInfo">
+                                    <p class="h3 title">FB 207, 208 and FB 113</p>
+                                    <p class="info text-white">
+                                        Totally dedicated labs with 100 - Acer systems in total having 8 GB RAM for
+                                        students to learn and practice English Language Communication Skills. Licenced
+                                        softwares are installed for better guidence of the students.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="labItem" data-aos="zoom-in" data-aos-duration="1000">
+                        <div class="labName">
+                            <p>Engineering Drawing and Graphics Lab</p>
+                        </div>
+                        <div class="labCard">
+                            <img src="images/laboratories/318 FB.JPG" class="labCardImg" alt="Autocad">
+                            <div class="labCardBody">
+                                <div class="labCardInfo">
+                                    <p class="h3 title">FB 315, 316, 318, 319 and CM 216, 217</p>
+                                    <p class="info text-white">
+                                        Totally dedicated labs with 200 - Acer systems in total having 8 GB RAM for
+                                        students to practice Engineering Drawing and Engineering Graphics using Autocad
+                                        tool.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="labItem" data-aos="zoom-in" data-aos-duration="1000">
+                        <div class="labName">
+                            <p>IT Workshop Laboratory</p>
+                        </div>
+                        <div class="labCard">
+                            <img src="images/laboratories/IT Workshop FB 116.JPG" class="labCardImg" alt="itworkshop">
+                            <div class="labCardBody">
+                                <div class="labCardInfo">
+                                    <p class="h3 title">FB 116, 117, 307, 308 and PG 402</p>
+                                    <p class="info text-white">
+                                        Totally dedicated labs with 170 - Acer systems in total having 8 GB RAM for
+                                        students to practice Essentials of System and Web Interfacing Lab
+                                        Essentials of Computer and Information Systems
+                                        Lab.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="labItem" data-aos="zoom-in" data-aos-duration="1000">
+                        <div class="labName">
+                            <p>Computer Center</p>
+                        </div>
+                        <div class="labCard">
+                            <img src="images/laboratories/Computer Centre.JPG" class="labCardImg" alt="computer center">
+                            <div class="labCardBody">
+                                <div class="labCardInfo">
+                                    <p class="h3 title">MB 204</p>
+                                    <p class="info text-white">
+                                        65 - Acer systems are kept seperately for the students to sit and browse the
+                                        research oriented content. This lab will be kept open for the students till 6PM
+                                        in the evening.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+    </main>
+    <!-- Main Content End -->
+    <!-- Footer Content Begin -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Major Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contacts.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Academics</h4>
+                    <ul>
+                        <li><a href="visionmission.html">Vision Mission</a></li>
+                        <li><a href="objectives.html">Objectives</a></li>
+                        <li><a href="academiccalendar.html">Academic Calendars</a></li>
+                        <li><a href="syllabus.html">Syllabus</a></li>
+                        <li><a href="timetables.html">Time Tables</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Infrastructure</h4>
+                    <ul>
+                        <li><a href="labs.html">Laboratories</a></li>
+                        <li><a href="classes.html">Class Rooms</a></li>
+
+                        <li><a href="seminarhall.html">Seminar Hall</a></li>
+                        <li><a href="library.html">Library</a></li>
+
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Faculty</h4>
+                    <ul>
+                        <li><a href="teaching.html">Teaching</a></li>
+                        <li><a href="nonteaching.html">Non - Teaching</a></li>
+                        <li><a href="techstaff.html">Technical Staff</a></li>
+                        <li><a href="adminstaff.html">Admin</a></li>
+
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Research</h4>
+                    <ul>
+                        <li><a class="dropdown-item" href="conferences.html">Conferences</a></li>
+                        <li><a href="workshops.html">Workshops</a></li>
+                        <li><a href="researchprojs.html">Research Projects</a></li>
+                        <li><a href="consultancyprojs.html">Consultancy Projects</a></li>
+
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Student Corner</h4>
+                    <ul>
+                        <li><a href="eresources.html">E-Resources</a></li>
+                        <li><a href="studentwork.html">Student Work</a></li>
+                        <li><a href="gallary.html">Gallary</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>follow us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <ul style="display:flex; align-items: center; justify-content: center;">
+                        <li>
+                            <h2><a href="#" class="mt-5">Copyright © 2023 CVRCE CSEDEPT</a></h2>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+    <!-- Footer Content End -->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>

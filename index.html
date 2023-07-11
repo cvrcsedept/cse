@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="icon" type="image/x-icon" href="images/CVR Logo.png">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <!-- Scroll Up (GoTo Top Button) -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top">
+        <i class="fa fa-angle-double-up" aria-hidden="true"></i>
+    </button>
+    <!-- Navigation and Header Begin -->
+    <div class="sticky-top">
+        <!-- Navigation sticky-top-->
+        <navigation>
+            <nav class="navbar navbar-expand-xl navbar-dark bg-blue">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="images/logo.png" class="img-fluid" alt="CVR LOGO"
+                            style="width: 100%; height: 60px;" />
+                        <!-- CSEDEPT -->
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item marlin">
+                                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item dropdown marlin">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Academics
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="visionmission.html">Vision Mission</a></li>
+                                    <li><a class="dropdown-item" href="objectives.html">Objectives</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="academiccalendar.html">Academic Calendar</a></li>
+                                    <li><a class="dropdown-item" href="syllabus.html">Syllabus Books</a></li>
+                                    <li><a class="dropdown-item" href="timetables.html">Time Tables</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown marlin">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Infrastructure
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="labs.html">Laboratories</a></li>
+                                    <li><a class="dropdown-item" href="classes.html">Class Rooms</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="seminarhall.html">Seminar Hall</a></li>
+                                    <li><a class="dropdown-item" href="library.html">Library</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown marlin">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Faculty
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="teaching.html">Teaching</a></li>
+                                    <li><a class="dropdown-item" href="nonteaching.html">Non - Teaching</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="techstaff.html">Technical Staff</a></li>
+                                    <li><a class="dropdown-item" href="adminstaff.html">Admin</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown marlin">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Research
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="conferences.html">Conferences</a></li>
+                                    <li><a class="dropdown-item" href="workshops.html">Workshops</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="researchprojs.html">Research Projects</a></li>
+                                    <li><a class="dropdown-item" href="consultancyprojs.html">Consultancy Projects</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown marlin">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Student Corner
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="eresources.html">E-Resources</a></li>
+                                    <li><a class="dropdown-item" href="studentwork.html">Student Work</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="gallary.html">Gallary</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item marlin">
+                                <a class="nav-link" href="about.html">About</a>
+                            </li>
+                            <li class="nav-item marlin">
+                                <a class="nav-link" href="contacts.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </navigation>
+        <!-- Header -->
+        <header>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-12 headerStyle">
+                        <p>
+                            Department of Computer Science and Engineering
+                        </p>
+                        <div class="container-fluid marqueeStyle">
+                            <marquee class="marformat" scrollamount="15" onMouseOver="this.stop()"
+                                onMouseOut="this.start()">
+                                <blink>
+                                    <label style="margin-right: 20px;">Notifications:</label>
+                                    <span class="blink">Flash</span>
+                                    <a class="text-white mr-4" href="#">
+                                        Department is organizing
+                                        a 10 day Skill Development Course on Web
+                                        Technologies starting from 14.06.2023 to 24.06.2023.
+                                    </a>
+                                    <span class="blink">Flash</span>
+                                    <a class="text-white mr-4" href="#">
+                                        Department is organizing
+                                        a 10 day Skill Development Course on Web
+                                        Technologies starting from 14.06.2023 to 24.06.2023.
+                                    </a>
+                                </blink>
+                            </marquee>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </header>
+    </div>
+    <!-- Navigation and Header End -->
+    <!-- Main Content Begin -->
+    <main>
+        <section class="carouselSection">
+            <div class="container-fluid">
+                <div class="row ecaDiv p-5">
+                    <div class="col-lg-2 eventsDiv mt-2">
+                        <p class="">Events@CSE</p>
+                        <div class="announceMarquee">
+                            <!-- <marquee direction="up" scrollamount="5" onmouseenter="this.stop()"
+                                onmouseleave="this.start()"> -->
+                            <ul>
+                                <li><a href="#">MIWAI - 2023</a></li>
+                                <li><a href="#">MIWAI to start on 20th July, 2023</a></li>
+                                <li><a href="#">MIWAI to start on 20th July, 2023</a></li>
+                                <li><a href="#">MIWAI to start on 20th July, 2023</a></li>
+                                <li><a href="#">MIWAI to start on 20th July, 2023</a></li>
+                                <li><a href="#">MIWAI to start on 20th July, 2023</a></li>
+                            </ul>
+                            <!-- </marquee> -->
+                        </div>
+                    </div>
+                    <div class="col-lg-8 mt-2">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div id="carouselA" class="carousel slide carouselBoth" data-bs-ride="carousel">
+                                        <div class="carousel-indicators">
+                                            <li data-bs-target="#carouselA" data-bs-slide-to="0" class="active"></li>
+                                            <li data-bs-target="#carouselA" data-bs-slide-to="1"></li>
+                                            <li data-bs-target="#carouselA" data-bs-slide-to="2"></li>
+                                            <li data-bs-target="#carouselA" data-bs-slide-to="3"></li>
+                                        </div>
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                <img src="images/CSE Dept Group Pic Latest.jpeg"
+                                                    class="d-block w-100 img-fluid" alt="Old Group PIc">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="images/newcsedept.jpg" class="d-block w-100 img-fluid"
+                                                    alt="Old CSE Building">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="images/applelab.jpg" class="d-block w-100  img-fluid"
+                                                    alt="Apple Laboratory">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="images/laboratories/Projects Lab 1.JPG"
+                                                    class="d-block w-100 img-fluid" alt="Apple Laboratory">
+                                            </div>
+                                            <button class="carousel-control-prev" type="button"
+                                                data-bs-target="#carouselA" data-bs-slide="prev">
+                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span class="visually-hidden">Previous</span>
+                                            </button>
+                                            <button class="carousel-control-next" type="button"
+                                                data-bs-target="#carouselA" data-bs-slide="next">
+                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                <span class="visually-hidden">Next</span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 announceDiv mt-2">
+                        <p>Announce@CSE</p>
+                        <div class="announceMarquee">
+                            <marquee direction="up" scrollamount="5" onmouseenter="this.stop()"
+                                onmouseleave="this.start()">
+                                <ul>
+                                    <li><a href="#">MIWAI to start on 20th July, 2023</a></li>
+                                    <li><a href="#">MIWAI to start on 20th July, 2023</a></li>
+                                    <li><a href="#">MIWAI to start on 20th July, 2023</a></li>
+                                    <li><a href="#">MIWAI to start on 20th July, 2023</a></li>
+                                    <li><a href="#">MIWAI to start on 20th July, 2023</a></li>
+                                    <li><a href="#">MIWAI to start on 20th July, 2023</a></li>
+                                </ul>
+                            </marquee>
+                        </div>
+                    </div>
+                    <div id="s2"></div>
+                    <!-- Carousel Text Slide -->
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-8 offset-sm-2">
+                                <div class="col-sm-12" style="display: flex; justify-content: center;">
+                                    <div id="carouselB" class="carousel slide carouselBoth" data-bs-ride="carousel">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                <p style="text-align: center; font-weight: 600; letter-spacing: 2px;">
+                                                    &quot;This is the Strength of the Department&quot;
+                                                </p>
+                                            </div>
+                                            <div class="carousel-item">
+                                                <p style="text-align: center; font-weight: 600; letter-spacing: 2px;">
+                                                    &quot;CSE Block with well furnished Laboratories and
+                                                    Classrooms&quot;
+                                                </p>
+                                            </div>
+                                            <div class="carousel-item">
+                                                <p style="text-align: center; font-weight: 600; letter-spacing: 2px;">
+                                                    &quot;Apple Laboratory where research and project develpment
+                                                    happens. Students can explore iOS Development here.&quot;
+                                                </p>
+                                            </div>
+                                            <div class="carousel-item">
+                                                <p style="text-align: center; font-weight: 600; letter-spacing: 2px;">
+                                                    &quot;Projects Laboratory where students will do their Mini and
+                                                    Major
+                                                    Projects Demonstrations.&quot;
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Know More Button -->
+                    <div class="row">
+                        <div class="col-sm-12" style="display: flex; justify-content: center;">
+                            <a class="btn btn-secondary p-2" href="#s2" style="width: 200px;">Know More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="headMessageSection">
+            <div class="container mt-5">
+                <div class="row">
+                    <div class="col-md-12 p-5">
+                        <h2 class="text-center text-uppercase">Message by Head of the Department</h2>
+                        <!-- <hr style="margin-left: 550px; color: black;" width="10%" /> -->
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6" data-aos="fade-right" data-aos-duration="1000">
+                        <img src="images/hod.jpg" class="img-fluid rounded" alt="" style="border: 3px solid #203476;">
+                    </div>
+                    <div class="col-md-6">
+                        <div class="msghoddiv" data-aos="fade-left" data-aos-duration="1000">
+                            <p class="h3">
+                                Dr. A Vani Vathsala (Professor and HOD )
+                            </p>
+                            <p class="msghodp">
+                                The department of Computer Science and Engineering has been flourishing by leaps and
+                                bounds since its inception in 2001 and has seen unprecedented growth. It currently
+                                offers four undergraduate program B.Tech CSE and a postgraduate program M.Tech
+                                Artificial Intelligence. The department is a JNTUH recognised Research Centre.
+                                B.Tech
+                                CSE program has been accredited four times by NBA from 2007 onwards. The fourth
+                                accreditation is under Tier-1 from July 2019 for a period of three years. CSE
+                                Department
+                                has well-equipped computing facilities including Apple Systems, NVIDIA GPUs, IBM
+                                Servers, Raspberry pi, Intel multi core systems. It has 37 Lab units of 30 Systems
+                                each,
+                                with the latest open source software tools needed for B.Tech and M.Tech Curriculum.
+                                Oracle 10g, Eclipse, Open XML, Star UML, My SQL, Anaconda, Weka, Android Studio,
+                                Visual
+                                Studio Code, Angular and React Libraries, Node JS, to name a few.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="recogSection">
+            <div class="recogContainer" data-aos="zoom-in" data-aos-duration="3000">
+                <div class="recogItem">
+                    <img src="images/UGC.png" class="img-fluid" alt="UGC">
+                </div>
+                <div class="recogItem">
+                    <img src="images/aicte.png" class="img-fluid" alt="AICTE">
+                </div>
+                <div class="recogItem">
+                    <img src="images/NBA.png" class="img-fluid" alt="NBA">
+                </div>
+                <div class="recogItem">
+                    <img src="images/Naac.png" class="img-fluid" alt="NAAC">
+                </div>
+                <div class="recogItem">
+                    <img src="images/JNTUH.png" class="img-fluid" alt="JNTUH">
+                </div>
+
+            </div>
+        </section>
+        <section class="deptStrengthSection">
+            <div class="deptStrengthSectionDivs">
+                <div class="sHeading">
+                    <p>Department Strength</p>
+                </div>
+                <div class="deptStrengthContainer">
+                    <div class="deptStrengthItem">
+                        <span class="Prof">30</span>
+                        <p>Professors</p>
+                    </div>
+                    <div class="deptStrengthItem">
+                        <span class="AssocProf">17</span>
+                        <p>Associate Professors</p>
+                    </div>
+                    <div class="deptStrengthItem">
+                        <span class="SrAsstProf">16</span>
+                        <p>Sr. Assistant Professors</p>
+                    </div>
+                    <div class="deptStrengthItem">
+                        <span class="AsstProf">34</span>
+                        <p>Assistant Professors</p>
+                    </div>
+                    <div class="deptStrengthItem">
+                        <span class="Prog">10</span>
+                        <p>Programmers and Admins</p>
+                    </div>
+                    <div class="deptStrengthItem">
+                        <span class="Dtps">3</span>
+                        <p>DTP's</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section class="facStrength">
+            <div class="container mt-5">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h2 class="text-center text-uppercase">Deptartment Virtuoso</h2>
+                        <!-- Virtuoso - Special knowledge in a field -->
+                        <!-- <hr style="margin-left: 550px; color: rgb(225, 12, 12);" width="10%" /> -->
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="facultyCardContainer">
+                        <div class="facultyCard" data-aos="fade-up" data-aos-duration="3000">
+                            <img src="images/Afroz 1.jpeg" alt="Afroz" style="width: 150px; height: 150px;">
+                            <p class="h4">Mr. Suhail Afroz</p>
+                            <p class="h6">Associate Professor</p>
+                            <p style="font-weight: 300;">Joined in 2007, Expert in Fullstack Development.</p>
+                            <a class="btn" href="#">Know More . . . . </a>
+                        </div>
+                        <div class="facultyCard" data-aos="fade-up" data-aos-duration="3000">
+                            <img src="images/Afroz 2.jpeg" alt="Afroz" style="width: 150px; height: 150px;">
+                            <p class="h4">Mr. Suhail Afroz</p>
+                            <p class="h6">Associate Professor</p>
+                            <p style="font-weight: 300;">Joined in 2007, Expert in Fullstack Development.</p>
+                            <a class="btn" href="#">Know More . . . . </a>
+                        </div>
+                        <div class="facultyCard" data-aos="fade-up" data-aos-duration="3000">
+                            <img src="images/afroz.jpg" alt="Afroz" style="width: 150px; height: 150px;">
+                            <p class="h4">Mr. Suhail Afroz</p>
+                            <p class="h6">Associate Professor</p>
+                            <p style="font-weight: 300;">Joined in 2007, Expert in Fullstack Development.</p>
+                            <a class="btn" href="#">Know More . . . . </a>
+                        </div>
+                        <div class="facultyCard" data-aos="fade-up" data-aos-duration="3000">
+                            <img src="images/afroz.jpg" alt="Afroz" style="width: 150px; height: 150px;">
+                            <p class="h4">Mr. Suhail Afroz</p>
+                            <p class="h6">Associate Professor</p>
+                            <p style="font-weight: 300;">Joined in 2007, Expert in Fullstack Development.</p>
+                            <a class="btn" href="#">Know More . . . . </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" data-aos="fade-left" data-aos-duration="1000">
+                    <div class="col-sm-12">
+                        <div class="mt-5" style="display: flex; justify-content: center;">
+                            <a href="teaching.html" class="btn btn-success"
+                                style="font-size: 1.2rem; font-weight: 500;">
+                                More Faculty
+                            </a>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <section class="contactSection">
+            <div class="container">
+                <div class="col-sm-12">
+                    <div class="contactTitle">
+                        <p>
+                            Contact Us
+                        </p>
+                    </div>
+                </div>
+                <div class="contactContainer">
+                    <!-- <div class="row"> -->
+                    <div class="col-lg-5 d-flex align-items-stretch infoDiv">
+                        <div class="infoSection">
+                            <div class="info">
+                                <div class="address">
+                                    <h4><i class="fa fa-map-marker"></i> Location:</h4>
+                                    <p>Campus: CVR College Of Engineering,
+                                        Vastunagar, Mangalpalli (V), Ibrahimpatnam (M),
+                                        Rangareddy (D), Telangana 501 510</p>
+                                </div>
+                                <div class="email">
+                                    <h4><i class="fa fa-envelope"></i> Email:</h4>
+                                    <p>For general enquiries: principal@cvr.ac.in <br>
+                                        For admissions related enquiries: snreddy@cvr.ac.in <br>
+                                        For placements related enquiries: placement@cvr.ac.in</p>
+                                </div>
+                                <div class="phone">
+                                    <h4><i class="fa fa-phone"></i> Call:</h4>
+                                    <p>Placements related: 08414 661663 <br>
+                                        99898 23424 (for placements related) <br>
+                                        Landline: 040-42204001,42204002,42204003</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-7 mt-5 mt-lg-3 d-flex align-items-stretch formDiv">
+                        <div class="formSection">
+                            <form>
+                                <div class="row">
+                                    <div class="form-group col-md-6">
+                                        <label for="name">Your Name</label>
+                                        <input type="text" name="name" class="form-control" id="name" required="">
+                                    </div>
+                                    <div class="form-group col-md-6 mt-3 mt-md-0">
+                                        <label for="name">Your Email</label>
+                                        <input type="email" class="form-control" name="email" id="email" required="">
+                                    </div>
+                                </div>
+                                <div class="form-group mt-3">
+                                    <label for="name">Subject</label>
+                                    <input type="text" class="form-control" name="subject" id="subject" required="">
+                                </div>
+                                <div class="form-group mt-3">
+                                    <label for="name">Message</label>
+                                    <textarea class="form-control" name="message" rows="10" required=""></textarea>
+                                </div>
+
+                                <div class="text-center">
+                                    <a class="btn btn-warning mt-4 mb-2"
+                                        style="font-size: 1.2rem; font-weight: 500;">Send Message</a>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <!-- </div> -->
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Main Content End -->
+    <!-- Footer Content Begin -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Major Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contacts.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Academics</h4>
+                    <ul>
+                        <li><a href="visionmission.html">Vision Mission</a></li>
+                        <li><a href="objectives.html">Objectives</a></li>
+                        <li><a href="academiccalendar.html">Academic Calendars</a></li>
+                        <li><a href="syllabus.html">Syllabus</a></li>
+                        <li><a href="timetables.html">Time Tables</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Infrastructure</h4>
+                    <ul>
+                        <li><a href="labs.html">Laboratories</a></li>
+                        <li><a href="classes.html">Class Rooms</a></li>
+
+                        <li><a href="seminarhall.html">Seminar Hall</a></li>
+                        <li><a href="library.html">Library</a></li>
+
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Faculty</h4>
+                    <ul>
+                        <li><a href="teaching.html">Teaching</a></li>
+                        <li><a href="nonteaching.html">Non - Teaching</a></li>
+                        <li><a href="techstaff.html">Technical Staff</a></li>
+                        <li><a href="adminstaff.html">Admin</a></li>
+
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Research</h4>
+                    <ul>
+                        <li><a class="dropdown-item" href="conferences.html">Conferences</a></li>
+                        <li><a href="workshops.html">Workshops</a></li>
+                        <li><a href="researchprojs.html">Research Projects</a></li>
+                        <li><a href="consultancyprojs.html">Consultancy Projects</a></li>
+
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Student Corner</h4>
+                    <ul>
+                        <li><a href="eresources.html">E-Resources</a></li>
+                        <li><a href="studentwork.html">Student Work</a></li>
+                        <li><a href="gallary.html">Gallary</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>follow us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <ul style="display:flex; align-items: center; justify-content: center;">
+                        <li>
+                            <h2><a href="#" class="mt-5">Copyright © 2023 CVRCE CSEDEPT</a></h2>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+    <!-- Footer Content End -->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
