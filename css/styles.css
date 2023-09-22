@@ -222,10 +222,6 @@ marquee:hover {
     padding: 2px;
 }
 
-.ecaDiv .eventsDiv .announceMarquee ul {
-    /* list-style: none; */
-}
-
 .ecaDiv .eventsDiv .announceMarquee ul li {
     margin-bottom: 5px;
 }
@@ -1196,6 +1192,59 @@ marquee:hover {
     border: 1px solid #203764;
     padding-bottom: 30px;
     background-color: rgba(10, 149, 255, 0.302);
+}
+
+.classSection .classDiv {
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.classSection .classDiv .imgDiv {
+    padding: 5px;
+    border: 5px solid #9d7878;
+    /* width: 50%; */
+    height: 350px;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: rgba(4, 63, 182, 0.567);
+}
+
+.classSection .classDiv .imgDiv img {
+    border-radius: 10px;
+    /* object-fit: cover; */
+    width: 100%;
+    height: 100%;
+    position: relative;
+    right: -150%;
+    animation: bringClass 2s ease forwards;
+    transition: 1s ease;
+}
+
+.classSection .classDiv .imgDiv img:hover {
+    transform: scale(1.5);
+}
+
+@keyframes bringClass {
+    from {
+        right: -150%;
+    }
+
+    100% {
+        right: .01%;
+
+    }
+}
+
+.classSection .classDiv .descDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    /* font-size: .9rem; */
+    font-weight: 600;
+    text-align: justify;
 }
 
 /* Class Rooms Style End */
